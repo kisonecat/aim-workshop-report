@@ -1,0 +1,301 @@
+\documentclass[12pt]{amsart}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\usepackage{hyperref}
+
+\title{Mathematics in the time of MOOCs: Post Workshop Report}
+
+\author[Bonfert-Taylor]{Petra Bonfert-Taylor (Wesleyan)}
+\author[Chadam]{John Chadam (Pittsburgh)}
+\author[Fowler]{Jim Fowler (Ohio State)}
+
+\usepackage[style=numeric]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{multicol}
+
+\begin{document}
+\maketitle
+
+\section{Summary}
+
+At present there is a great deal of optimism, as well as concern,
+within the mathematics community about the growing presence of MOOCs.
+As a result, there are many MOOC related conferences focusing on the
+broader policy issues or on specific approaches, but heretofore
+missing is a venue for those \textit{creating} MOOCs in mathematics to
+come together to plan future courses, to integrate course content, to
+share course data, to share technical and conceptual ideas, and to
+review content, with an overarching goal to accelerate and optimize
+MOOC content creation.
+
+This proposal is an attempt to remedy this by providing such a venue
+for MOOC content creators in the Mathematical Sciences to discuss
+building MOOCs for mathematics, and to discuss establishing an ``AIM
+Open MOOC Initiative'' which would review MOOC content, as well as
+make MOOC development tools, course content, course data, and
+assessment instruments available for reuse.
+
+\section{Need for the workshop}
+
+Research universities are ``doing the worst job in maintaining student
+confidence in their mathematical abilities, enjoyment of mathematics,
+and interest in continuing with the mathematics that is needed to
+pursue their intended careers'' \parencite{calculus-students}.
+MOOCs---already being used at some of the most prestigious US research
+universities \parencite{morris2013moocs}---are generating high-level
+interest because they are believed to provide a method by which
+universities can rein in costs and improve student
+outcomes \parencite{bowen2013higher}.  That high-level of interest
+among stakeholders is evidenced by the
+\begin{itemize}
+\item many colloquium talks at mathematics departments,
+\item panel discussions at professional society meetings, such as
+  \textit{Two Worlds Collide: MOOCs and the Ivory Tower} at the 2014
+  AMS--MAA Joint Meeting, or the \textit{AMS Conference on MOOCs} in
+  Washington, D.C., October 22, 2013,
+\item panel discussions at granting agencies, such as the
+  December~2012 NSF Internal Workshop on MOOCs at
+  \url{http://www.nsf.gov/attachments/127404/public/Engineering_Education.pdf},
+\item white papers generated from such panel discussions, for example,
+  INGenIOuS at \url{http://ingeniousmathstat.org/technology-and-moocs}, and
+\item engineering and education sponsored workshops, such as the \textit{National Academy
+  of Engineering Conference} in Irvine, California, October 29, 2013, or the \textit{MOOC
+  Conference} at UT--Arlington on December 4--5, 2013.
+\end{itemize}
+Note that the structure and venues of these activities are chosen
+purposely to lead to discussions of a wide range of topics from
+explaining the implementation of a particular MOOC to potential users
+and students, to discussing the constraints that might emerge for
+non-mathematical reasons from educators, publishers, platform
+providers (Coursera, edX, Udacity), university administrators and
+politicians.
+
+The aforementioned events are primarily policy or pedagogy
+conversations; the missing ingredient has been mathematicians.  That
+is not to say that mathematicians aren't heavily involved, but simply
+that the focus on previous MOOC related events has not been the
+mathematics, but the surrounding policy or pedagogical issues.  The
+quiescence of mathematicians is not a new phenomenon, and is not
+restricted to MOOCs.  For example, the President's Council of Advisors
+on Science and Technology issued a report calling for one million
+additional STEM graduates \cite{engage-to-excel}, which the National
+Academy of Sciences responded to with a discussion of discipline-based
+education research \cite{dber-report}, which, while addressing
+biology, chemistry, physics, and geosciences, notably did not address
+mathematics qua mathematics, but only mathematics as yet another tool.
+If mathematics is being presented as merely a tool, rather than
+something worth studying on its own merits, rather than as a highlight
+of the human experience, then is it any surprise that mathematics is
+unpopular with students?  Students are abandoning STEM majors because
+of the low quality of instruction ``with calculus often cited as a
+primary reason'' \parencite{calculus-programs}.  Since MOOCs are one
+significant means towards improving instructional quality, it behooves
+the mathematical community to take charge of the exposition in our
+MOOCs---before someone outside of mathematics does our job for us.
+
+\section{Objectives}
+
+This is a proposal for a series of events exploring the opportunities
+and challenges of teaching Mathematics at the university level using
+MOOCs. The objective is to bring together academics who have created
+or are creating MOOCs in the Mathematical Sciences to share their
+expertise and explore how best to build MOOCs.  The overarching goal
+is to share resources between MOOC content creators, which means
+sharing \textbf{content, courses, tools, platforms, and data.}
+
+\subsection{Sharing content.}  AIM's Open Textbook Initiative is a
+great and already successful example of how institutions can share
+open resources \cite{aim-notices}.  The proposal would extend AIM's
+textbook initiative into an ``Open MOOC Initiative.''  This turn of
+phrase may initially appear redundant: doesn't one of the Os in
+``MOOC'' stand for open?  MOOCs are ``open'' in that enrollment is
+free, which means MOOCs are usually ``gratis'' but not necessarily
+``libre'' \cite{suber2008gratis}.  But as AIM's Open Textbook
+Initiative illustrates, ``libre'' can be crucial.  Whether MOOCs ought
+to be ``open'' in that more expansive sense of ``libre'' is a
+significant issue worth debating.
+
+There are other reasons to consider an expansion of textbook
+initiative.  AIM's Open Textbook Initiative is no longer providing
+direct substitutes to the textbook as it is currently peddled, because
+textbook publishers are not providing just a book anymore; so-called
+``textbooks'' are bundled with packages of lecture notes, videos,
+online, often adaptive, homework system, interactive JavaScript demos,
+etc.  Insofar as MOOCs are seen not as courses but as repositories of
+content, MOOCs are closer to what the publishers are actually offering
+as textbooks.  So the open textbook movement could respond by offering
+superior, critically reviewed, fully open resources under the moniker
+of MOOCs.
+
+An Open MOOC Initiative may begin by primarily acting as a reviewer of
+MOOC content---whether or not it is reusable content---but, based on
+the discussions at the workshop, it may grow into a central repository
+of open, reusable content for MOOCs and other blended forms of
+instruction.  A major objective of the proposed workshop is to
+consider how best to evaluate and review MOOCs, and then how the
+interested parties could organize and share their reusable content in
+a central repository.
+
+Some of the challenges are technical, which is one reason why the
+participant list includes not just mathematicians, but also
+technologists.  For example, there are significant technical
+challenges with video, so it will be useful for MOOC content creators
+to discuss their workflow for handling complicated content formats
+like video, even if the content creators are less interested in making
+their videos reusable.  Sometimes the mathematicians are divorced from
+such issues because their institutions are using instructional
+designers, but it is nonetheless important for the mathematicians to
+be aware of the issues.
+
+\subsection{Sharing courses.}  Not everyone will be interested in
+sharing course content.  Nevertheless, multi-institution and
+multi-platform courses could pool the otherwise limited resources of
+isolated departments and MOOC content authors.  Currently, it is
+challenging for an interested MOOC author to determine what courses
+other institutions may be offering or may be planning to offer;
+discussing what upper-division courses make the most sense for
+MOOCification is a major objective of the workshop.  It is important
+that such discussions about courses be made between mathematicians,
+instead of simply by considering enrollment numbers or potential
+revenue.  How can a proof-based course be run in a MOOC format?  Are
+there missed opportunities for making connections between MOOCs at
+different institutions?
+
+Finally, many interested MOOC authors may find themselves to be the
+only MOOC author at their institution.  For such authors,
+multi-institution coordination may be the only way to get into the
+game.  The promise of the internet is not only to bring students
+together, but to make it possible for educators at distant locations
+to teach together.  Thus, a major objective of the workshop is to help
+connect authors who would be interested in collaborating on a
+multi-institutional course.  Many significant MOOCs have already grown
+out of collaborations.
+
+\subsection{Sharing tools.} Even for MOOC content creators who are not
+interested in sharing content or collaborating on a course, tools can
+be shared.  There are already many tools that could be shared between
+institutions, but perhaps these tools are not well known.  For
+example, Jim Fowler built the ``autocutter'' available at
+\url{https://github.com/kisonecat/autocut} which automates the process
+of video editing for many MOOCs by applying a fast Fourier transform
+to the audio, looking for human voices, and cutting away the parts of
+the initial and final segments of video that do not include a human
+voice.  There are other useful tools for superimposing graphics onto
+video.  What tools are other MOOC content creators using?  Are they
+building tools that can be reused by others?  If so, these tools could
+be used very broadly.
+
+The workshop includes not only mathematicians, but also technologists,
+precisely because mathematicians may not be in the best position to
+understand some of the technical challenges surrouding MOOCs.  An
+objective for the workshop is to establish collaborations not only
+between MOOC content creators, but also between technologists and
+mathematicians, with the aim of creating more engaging methods for
+students to do mathematics online.
+
+\subsection{Sharing platforms.}  For MOOCs to succeed, there must be
+``customizable, sustainable platforms'' \parencite{bowen2013higher}
+for online instruction.  To what extent are the current platforms
+customizable?  Do MOOC content creators believe that they are creating
+``sustainable'' content which will be available---and reusable---for
+decades to come?  \TeX\ is perhaps the best example of a truly
+sustainable platform, and consequently, mathematicians are comfortable
+putting considerable effort into the creation of \TeX\ documents.  How
+can content creators create content for the web that will last the
+test of time?  Many of these questions address the anxiety that
+prevents our colleagues from investing their time in creating MOOC
+content.
+
+There are also questions about how best to use various MOOC platforms.
+For example, many Coursera courses make significant use of Community
+TAs, but the effectiveness of such TAs varies.  A key objective of the
+workshop is to share best practices not just for creating content, but
+practically running and organizing courses centered around that
+content.  How should we use the Community TAs?  How can we make it
+easier to ``rerun'' old courses?  How can MOOC content creators
+transport our content from one platform to another?
+
+There are also opportunities for building new platforms.  What would
+an ideal MOOC platform look like, for a course in mathematics?
+Certainly, a platform for mathematics can be re-used for other
+courses, just as pieces of MOOCulus were reused for the English
+WexMOOC \cite{gates-foundation-grant}.  Nevertheless, there are
+math-specific desiderata for a MOOC platform that may not be currently
+available on any of the major platforms, so a major objective of the
+workshop is to formalize such features and bring them before the
+platform developers.
+
+\subsection{Sharing data.} What student data will be mined?  What
+sorts of data will be stored on each student interaction?  And how can
+such data be shared between institutions?  How are MOOC content
+creators improving their courses by relying on such data?  Such
+decisions, if made poorly, may seriously constrain the usefulness of
+MOOCs.  Some have chosen to record the date and time the student has
+engaged with various educational
+applications \parencite{RomeroZaldivar20121058}; others are looking at
+clickstream data \parencite{boyer2013student}.  Going forward, it is
+worth considering a format for heterogeneous data logging for student
+interaction, like the Tin Cap API \parencite{tin-can-api}.  There may
+be advantages to gathering data from other sources, such as video
+views from within Coursera's platform or forum posts, but there can be
+challenges to getting such data from the platforms as they currently
+exist.
+
+Mathematicians, in contrast to many other MOOC authors, are in a
+strong position to both generate the course content and then, armed
+with domain knowledge, analyze the student data that will lead to
+refinements in the student outcomes for their courses.  A major
+objective of the workshop is to share best practices for doing so.
+Moreover, it is likely that an Open MOOC Initiative, beyond
+coordinating the reuse of course content, could also become a
+clearinghouse for student data from MOOCs.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Plan}
+
+To achieve these objectives, the proposal is to have a core group of
+approximately 25~individuals from the list in Appendix~A participate
+in an initial 2--3 day organizational workshop to be held at AIM in
+Palo Alto.
+
+The meeting at AIM would be scheduled for a few days between February
+2--9.
+
+\subsection{Initial AIM workshop}
+
+Overall, the discussion topics will be the current state of MOOCs in
+mathematics, leading to an exploration of what needs to be done and
+how these objectives could be accomplished.  To frame the activities,
+the workshop begins with an introductory hour, in which participants
+give a very brief ($<2$ minute) overview of what MOOCs they have run
+or are planning to run.  The majority of the participants are
+mathematicians who have run a MOOC on a variety of platforms, but
+there are also participants with a strong technical background, with a
+background in open educational resources, or with corporate
+experience.
+
+Smaller discussion groups of between 4 and 6 participants would then
+form on the first day around the major themes of content, courses,
+tools, platforms, and data.  These smaller groups would report to the
+larger group, with a goal of producing a short report (collaboratively
+edited using the Sagemath Cloud) giving practical next steps for
+sharing content, building collaborations for multi-institution
+courses, disseminating tools for MOOC creation, using the various MOOC
+platforms, and sharing data.
+
+The final day of the workshop focuses on the dissemination of the
+results by involving the professional societies, and working through
+the many issues and opinions that will necessarily surround any form
+an Open MOOC Initiative could take.
+
+\newpage
+\printbibliography
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
